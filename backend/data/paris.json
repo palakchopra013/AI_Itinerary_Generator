@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Eiffel Tower",
+    "type": "culture",
+    "time_required": 2,
+    "cost": "medium",
+    "location": [48.8584, 2.2945],
+    "description": "Iconic landmark of Paris."
+  },
+  {
+    "name": "Louvre Museum",
+    "type": "culture",
+    "time_required": 3,
+    "cost": "medium",
+    "location": [48.8606, 2.3376],
+    "description": "World's largest art museum."
+  },
+  {
+    "name": "Seine River Cruise",
+    "type": "adventure",
+    "time_required": 2,
+    "cost": "high",
+    "location": [48.8584, 2.2945],
+    "description": "Scenic boat ride along the river."
+  }
+]
+
+
+
