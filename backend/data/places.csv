@@ -1,44 +1,80 @@
-name,city,type,category,ideal_time,duration_hrs,budget_level,rating,description,nearby_food,nearby_market,travel_tip
-India Gate,Delhi,attraction,history,morning,1,low,4.5,Iconic war memorial,Khan Market,Connaught Place,Visit early morning
-Qutub Minar,Delhi,attraction,history,afternoon,2,medium,4.6,UNESCO heritage site,Qutub Cafes,Mehrauli Market,Wear comfortable shoes
-Red Fort,Delhi,attraction,history,morning,2,medium,4.4,Mughal era fort,Old Delhi Food,Chandni Chowk,Go early
-Lotus Temple,Delhi,attraction,nature,afternoon,1,low,4.7,Peaceful Bahai temple,South Delhi Cafes,GK Market,Maintain silence
-Akshardham,Delhi,attraction,spiritual,evening,3,medium,4.8,Massive temple complex,Temple Food,Local Stalls,Check entry rules
-Chandni Chowk,Delhi,market,food,evening,2,low,4.4,Street food heaven,Paranthe Wali Gali,Chandni Chowk,Bargain
-Humayun Tomb,Delhi,attraction,history,morning,2,medium,4.6,Mughal architecture,Sunder Nursery Cafe,Nizamuddin Market,Carry water
-Connaught Place,Delhi,market,shopping,evening,2,medium,4.5,Central shopping hub,United Coffee House,CP Market,Good nightlife
-Lodhi Garden,Delhi,attraction,nature,morning,1,low,4.6,Green park with tombs,Nearby Cafes,Lodhi Market,Best for walks
-Sarojini Nagar,Delhi,market,shopping,afternoon,2,low,4.3,Budget shopping,Street Snacks,Sarojini Market,Carry cash
+name,city,type,category,ideal_time,duration_hrs,budget_level,rating,best_for,crowd_level,entry_fee,description,nearby_food,nearby_market,travel_tip,latitude,longitude
+India Gate,Delhi,attraction,history,morning,1,low,4.5,family,medium,0,Iconic war memorial,Khan Market,Connaught Place,Visit early morning,28.6129,77.2295
+Qutub Minar,Delhi,attraction,history,afternoon,2,medium,4.6,friends,medium,35,UNESCO heritage site,Qutub Cafes,Mehrauli Market,Wear comfortable shoes,28.5244,77.1855
+Red Fort,Delhi,attraction,history,morning,2,medium,4.4,family,high,35,Mughal era fort,Old Delhi Food,Chandni Chowk,Go early,28.6562,77.2410
+Lotus Temple,Delhi,attraction,spiritual,afternoon,1,low,4.7,solo,medium,0,Bahai house of worship,South Delhi Cafes,GK Market,Maintain silence,28.5535,77.2588
+Akshardham,Delhi,attraction,spiritual,evening,3,medium,4.8,family,high,0,Grand temple complex,Temple Food,Local Stalls,Check entry rules,28.6127,77.2773
+Humayun Tomb,Delhi,attraction,history,morning,2,medium,4.6,couples,medium,30,Mughal architecture,Sunder Nursery Cafe,Nizamuddin Market,Carry water,28.5933,77.2507
+Lodhi Garden,Delhi,attraction,nature,morning,1,low,4.6,solo,low,0,Green heritage park,Nearby Cafes,Lodhi Market,Best for walks,28.5931,77.2197
+Sarojini Nagar,Delhi,market,shopping,afternoon,2,low,4.3,friends,high,0,Budget shopping hub,Street Snacks,Sarojini Market,Bargain hard,28.5765,77.1950
+Connaught Place,Delhi,market,shopping,evening,2,medium,4.5,friends,high,0,Central shopping hub,United Coffee House,CP Market,Good nightlife,28.6315,77.2167
+Chandni Chowk,Delhi,market,food,evening,2,low,4.4,friends,high,0,Street food paradise,Paranthe Wali Gali,Chandni Chowk,Bargain politely,28.6506,77.2303
 
-Gateway of India,Mumbai,attraction,history,morning,1,low,4.5,Sea-facing monument,Leopold Cafe,Colaba Causeway,Go early
-Marine Drive,Mumbai,attraction,nature,evening,1,low,4.8,Queen’s Necklace view,Street Snacks,Linking Road,Sunset best
-Colaba Causeway,Mumbai,market,shopping,evening,2,medium,4.4,Street shopping,Leopold Cafe,Colaba Market,Bargain
-Elephanta Caves,Mumbai,attraction,history,afternoon,3,medium,4.4,Rock-cut caves,Ferry Snacks,Local Stalls,Check ferry time
-Juhu Beach,Mumbai,attraction,nature,evening,2,low,4.3,Popular beach,Juhu Street Food,Juhu Market,Try pav bhaji
-Bandra Bandstand,Mumbai,attraction,nature,evening,1,low,4.5,Sea promenade,Cafes,Bandra Market,Good photos
-Sanjay Gandhi NP,Mumbai,attraction,nature,morning,3,medium,4.4,National park inside city,Park Canteen,Borivali Market,Carry water
-Haji Ali,Mumbai,attraction,spiritual,morning,1,low,4.6,Dargah in sea,Local Food,Nearby Shops,Check tide
-Powai Lake,Mumbai,attraction,nature,evening,1,low,4.3,Lake view,Hiranandani Cafes,Powai Market,Quiet spot
-Versova Beach,Mumbai,attraction,nature,evening,1,low,4.2,Less crowded beach,Beach Cafes,Versova Market,Relaxed vibe
+Gateway of India,Mumbai,attraction,history,morning,1,low,4.5,family,high,0,Sea-facing monument,Leopold Cafe,Colaba Causeway,Go early,18.9220,72.8347
+Marine Drive,Mumbai,attraction,nature,evening,1,low,4.8,couples,medium,0,Queen’s Necklace view,Street Snacks,Linking Road,Sunset best,18.9430,72.8238
+Elephanta Caves,Mumbai,attraction,history,afternoon,3,medium,4.4,friends,medium,40,Rock-cut caves,Ferry Snacks,Local Stalls,Check ferry timing,18.9633,72.9310
+Juhu Beach,Mumbai,attraction,nature,evening,2,low,4.3,friends,high,0,Popular beach,Juhu Street Food,Juhu Market,Evenings crowded,19.0883,72.8265
+Bandra Bandstand,Mumbai,attraction,nature,evening,1,low,4.5,couples,medium,0,Sea promenade,Cafes,Bandra Market,Good photos,19.0466,72.8225
+Sanjay Gandhi NP,Mumbai,attraction,nature,morning,3,medium,4.4,family,low,85,Urban national park,Park Canteen,Borivali Market,Carry water,19.2147,72.9106
+Haji Ali,Mumbai,attraction,spiritual,morning,1,low,4.6,solo,high,0,Dargah in the sea,Local Food,Nearby Shops,Check tide timings,18.9828,72.8080
+Powai Lake,Mumbai,attraction,nature,evening,1,low,4.3,solo,low,0,Peaceful lake,Hiranandani Cafes,Powai Market,Relax spot,19.1280,72.9057
+Versova Beach,Mumbai,attraction,nature,evening,1,low,4.2,solo,medium,0,Quiet beach,Beach Cafes,Versova Market,Less crowded,19.1350,72.8120
+Colaba Causeway,Mumbai,market,shopping,evening,2,medium,4.4,friends,high,0,Street shopping hub,Leopold Cafe,Colaba Market,Bargain well,18.9218,72.8318
 
-Baga Beach,Goa,attraction,nature,morning,2,low,4.6,Famous beach,Beach Shacks,Baga Market,Early visit
-Calangute Beach,Goa,attraction,nature,afternoon,2,low,4.5,Busy beach,Cafes,Calangute Market,Water sports
-Anjuna Beach,Goa,attraction,adventure,evening,2,medium,4.4,Sunset beach,Curlies,Anjuna Market,Good nightlife
-Anjuna Flea Market,Goa,market,shopping,evening,2,medium,4.5,Flea market stalls,Local Cafes,Anjuna Market,Carry cash
-Fort Aguada,Goa,attraction,history,morning,1,low,4.5,Portuguese fort,Nearby Cafes,Local Shops,Great views
-Basilica of Bom Jesus,Goa,attraction,history,morning,1,low,4.7,UNESCO church,Church Cafes,Old Goa Market,Respect dress code
-Dudhsagar Falls,Goa,attraction,nature,morning,4,medium,4.6,Waterfall trek,Forest Snacks,Local Vendors,Check season
-Palolem Beach,Goa,attraction,nature,evening,2,low,4.6,Peaceful beach,Cafe Inn,Palolem Market,Relax spot
-Chapora Fort,Goa,attraction,history,evening,1,low,4.3,Scenic fort,Nearby Cafes,Chapora Market,Sunset views
-Casino Cruise,Goa,attraction,entertainment,night,3,high,4.2,Floating casino,Dinner Buffet,Onboard Shops,Carry ID
+Baga Beach,Goa,attraction,nature,morning,2,low,4.6,friends,high,0,Famous beach,Beach Shacks,Baga Market,Early visit,15.5520,73.7517
+Calangute Beach,Goa,attraction,nature,afternoon,2,low,4.5,friends,high,0,Busiest beach,Cafes,Calangute Market,Water sports available,15.5494,73.7537
+Anjuna Beach,Goa,attraction,adventure,evening,2,medium,4.4,friends,medium,0,Sunset beach,Curlies,Anjuna Market,Good nightlife,15.5736,73.7401
+Fort Aguada,Goa,attraction,history,morning,1,low,4.5,couples,medium,0,Portuguese fort,Nearby Cafes,Local Shops,Great views,15.4925,73.7736
+Dudhsagar Falls,Goa,attraction,nature,morning,4,medium,4.6,friends,medium,400,Waterfall trek,Forest Snacks,Local Vendors,Seasonal access,15.3144,74.3143
+Palolem Beach,Goa,attraction,nature,evening,2,low,4.6,couples,low,0,Peaceful beach,Cafe Inn,Palolem Market,Relaxing vibe,15.0100,74.0232
+Chapora Fort,Goa,attraction,history,evening,1,low,4.3,friends,medium,0,Scenic fort,Nearby Cafes,Chapora Market,Sunset views,15.6055,73.7414
+Casino Cruise,Goa,attraction,entertainment,night,3,high,4.2,friends,medium,2000,Floating casino,Dinner Buffet,Onboard Shops,Carry ID,15.5057,73.8327
+Basilica of Bom Jesus,Goa,attraction,history,morning,1,low,4.7,family,medium,0,UNESCO church,Church Cafes,Old Goa Market,Respect dress code,15.5009,73.9111
+Anjuna Flea Market,Goa,market,shopping,evening,2,medium,4.5,friends,high,0,Flea market stalls,Local Cafes,Anjuna Market,Carry cash,15.5733,73.7420
 
-Hawa Mahal,Jaipur,attraction,history,morning,1,low,4.6,Palace of winds,Local Cafes,Badi Chaupar,Photos best morning
-Amber Fort,Jaipur,attraction,history,morning,3,medium,4.7,Majestic hill fort,Fort Cafes,Amer Market,Start early
-City Palace,Jaipur,attraction,history,afternoon,2,medium,4.6,Royal residence,Palace Cafe,Johari Bazaar,Buy souvenirs
-Jantar Mantar,Jaipur,attraction,science,afternoon,1,low,4.5,Astronomical observatory,Nearby Cafes,Bapu Bazaar,Quick visit
-Nahargarh Fort,Jaipur,attraction,nature,evening,2,low,4.6,Sunset point,Cafe Padao,Local Shops,Best at sunset
-Johari Bazaar,Jaipur,market,shopping,evening,2,medium,4.4,Jewelry market,Street Food,Johari Bazaar,Bargain
-Bapu Bazaar,Jaipur,market,shopping,evening,2,low,4.3,Textiles market,Snacks,Bapu Bazaar,Local items
-Albert Hall,Jaipur,attraction,history,evening,1,low,4.5,Museum building,Cafes,Nehru Bazaar,Night lighting
-Birla Mandir,Jaipur,attraction,spiritual,evening,1,low,4.6,White marble temple,Nearby Cafes,Local Shops,Peaceful
-Patrika Gate,Jaipur,attraction,photography,morning,1,low,4.7,Colorful gate,Nearby Cafes,Local Vendors,Great photos
+Hawa Mahal,Jaipur,attraction,history,morning,1,low,4.6,couples,medium,50,Palace of winds,Local Cafes,Badi Chaupar,Best photos morning,26.9239,75.8267
+Amber Fort,Jaipur,attraction,history,morning,3,medium,4.7,family,high,100,Majestic fort,Fort Cafes,Amer Market,Start early,26.9855,75.8513
+City Palace,Jaipur,attraction,history,afternoon,2,medium,4.6,family,medium,150,Royal residence,Palace Cafe,Johari Bazaar,Buy souvenirs,26.9258,75.8236
+Jantar Mantar,Jaipur,attraction,science,afternoon,1,low,4.5,solo,medium,50,Astronomical observatory,Nearby Cafes,Bapu Bazaar,Quick visit,26.9240,75.8246
+Nahargarh Fort,Jaipur,attraction,nature,evening,2,low,4.6,couples,medium,50,Sunset viewpoint,Cafe Padao,Local Shops,Best at sunset,27.0487,75.8194
+Johari Bazaar,Jaipur,market,shopping,evening,2,medium,4.4,friends,high,0,Jewelry market,Street Food,Johari Bazaar,Bargain well,26.9232,75.8260
+Albert Hall,Jaipur,attraction,history,evening,1,low,4.5,family,medium,40,Museum building,Cafes,Nehru Bazaar,Night lighting,26.9116,75.8193
+Birla Mandir,Jaipur,attraction,spiritual,evening,1,low,4.6,solo,low,0,White marble temple,Nearby Cafes,Local Shops,Peaceful visit,26.8920,75.8130
+Patrika Gate,Jaipur,attraction,photography,morning,1,low,4.7,couples,low,0,Colorful gate,Nearby Cafes,Local Vendors,Great photos,26.7814,75.8445
+Bapu Bazaar,Jaipur,market,shopping,evening,2,low,4.3,friends,high,0,Textile market,Snacks,Bapu Bazaar,Local items,26.9225,75.8254
+
+Lalbagh Botanical Garden,Bangalore,attraction,nature,morning,2,low,4.6,family,medium,0,Historic botanical garden,Nearby Cafes,Jayanagar Market,Go early morning,12.9507,77.5848
+Cubbon Park,Bangalore,attraction,nature,morning,1,low,4.7,solo,low,0,Central green park,Coffee Shops,Commercial Street,Great for walks,12.9763,77.5929
+Bangalore Palace,Bangalore,attraction,history,afternoon,2,medium,4.4,family,medium,230,Royal palace,Cafes,Local Shops,Audio guide helpful,12.9987,77.5921
+MG Road,Bangalore,market,shopping,evening,2,medium,4.5,friends,high,0,Shopping and nightlife hub,Restaurants,Brigade Road,Evening best,12.9756,77.6068
+ISKCON Temple,Bangalore,attraction,spiritual,evening,1,low,4.6,solo,medium,0,Large Krishna temple,Temple Food,Nearby Shops,Evening aarti nice,13.0098,77.5511
+
+Marina Beach,Chennai,attraction,nature,morning,2,low,4.4,friends,high,0,Longest urban beach,Street Food,Local Stalls,Early visit best,13.0500,80.2824
+Kapaleeshwarar Temple,Chennai,attraction,spiritual,morning,1,low,4.6,solo,medium,0,Dravidian architecture,South Indian Food,Mylapore Market,Respect dress code,13.0337,80.2695
+Fort St George,Chennai,attraction,history,afternoon,2,low,4.3,family,medium,15,British-era fort,Cafes,Local Shops,Carry ID,13.0827,80.2870
+Elliot’s Beach,Chennai,attraction,nature,evening,1,low,4.5,couples,medium,0,Calm beach,Cafes,Besant Nagar,Relaxed vibe,12.9980,80.2717
+Pondy Bazaar,Chennai,market,shopping,evening,2,low,4.2,friends,high,0,Budget shopping area,Snacks,Pondy Bazaar,Bargain,13.0405,80.2337
+
+Victoria Memorial,Kolkata,attraction,history,afternoon,2,medium,4.7,family,medium,30,Colonial marble monument,Cafes,New Market,Evening lighting,22.5448,88.3426
+Howrah Bridge,Kolkata,attraction,history,evening,1,low,4.6,friends,high,0,Iconic bridge,Street Food,Howrah Market,Night view best,22.5850,88.3468
+Dakshineswar Temple,Kolkata,attraction,spiritual,morning,1,low,4.6,solo,medium,0,Riverside temple,Local Food,Nearby Shops,Morning peaceful,22.6552,88.3570
+Park Street,Kolkata,market,food,evening,2,medium,4.5,friends,high,0,Food & nightlife hub,Restaurants,Park Street,Try cafes,22.5535,88.3517
+New Market,Kolkata,market,shopping,afternoon,2,low,4.3,friends,high,0,Historic market,Street Food,New Market,Bargain,22.5626,88.3511
+
+Charminar,Hyderabad,attraction,history,morning,1,low,4.5,family,high,0,Iconic monument,Irani Cafes,Laad Bazaar,Crowded evenings,17.3616,78.4747
+Golconda Fort,Hyderabad,attraction,history,afternoon,3,medium,4.6,friends,medium,25,Historic fort,Cafes,Local Shops,Sound show worth it,17.3833,78.4011
+Hussain Sagar,Hyderabad,attraction,nature,evening,1,low,4.4,couples,medium,0,Lake with Buddha statue,Street Food,Necklace Road,Evening breeze,17.4239,78.4738
+Ramoji Film City,Hyderabad,attraction,entertainment,morning,6,high,4.5,family,medium,1350,Film studio complex,Food Courts,Onsite Shops,Full day trip,17.2543,78.6808
+Laad Bazaar,Hyderabad,market,shopping,evening,2,low,4.3,friends,high,0,Bangle market,Street Food,Laad Bazaar,Carry cash,17.3619,78.4756
+
+City Palace,Udaipur,attraction,history,morning,3,medium,4.7,family,medium,300,Royal palace complex,Cafes,Local Shops,Audio guide helpful,24.5760,73.6835
+Lake Pichola,Udaipur,attraction,nature,evening,1,medium,4.8,couples,medium,300,Scenic lake boat ride,Restaurants,Local Market,Sunset best,24.5766,73.6826
+Jag Mandir,Udaipur,attraction,history,afternoon,2,medium,4.5,couples,low,300,Lake island palace,Cafes,Nearby Shops,Boat access only,24.5770,73.6806
+Saheliyon Ki Bari,Udaipur,attraction,nature,morning,1,low,4.4,solo,low,50,Garden of maidens,Nearby Cafes,Local Market,Peaceful visit,24.6080,73.7050
+Hathi Pol Bazaar,Udaipur,market,shopping,evening,2,low,4.3,friends,high,0,Local handicrafts,Snacks,Hathi Pol,Bargain,24.5804,73.6853
+
+Triveni Ghat,Rishikesh,attraction,spiritual,evening,1,low,4.7,solo,medium,0,Ganga aarti spot,Local Food,Nearby Shops,Evening best,30.1035,78.2946
+Lakshman Jhula,Rishikesh,attraction,history,afternoon,1,low,4.5,friends,medium,0,Suspension bridge,Cafes,Local Market,Walk carefully,30.1280,78.3234
+Parmarth Niketan,Rishikesh,attraction,spiritual,evening,1,low,4.6,solo,low,0,Ashram with aarti,Simple Food,Local Shops,Silent zone,30.1230,78.3091
+Neer Garh Waterfall,Rishikesh,attraction,nature,morning,2,low,4.4,friends,medium,30,Waterfall hike,Snacks,Local Vendors,Wear shoes,30.1445,78.3410
+Yoga Ashrams,Rishikesh,attraction,wellness,morning,2,medium,4.6,solo,low,500,Yoga sessions,Healthy Cafes,Local Shops,Pre-book sessions,30.0869,78.2676
